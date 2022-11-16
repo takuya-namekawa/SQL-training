@@ -13,7 +13,7 @@ UPDATE テーブル名 SET 列名 = 値 WHERE 年齢 = 25
 CREATE TABLE PERSON_DATA
     (`id` int, `name` varchar(2), `age` int, `address` varchar(7))
 ;
-    
+
 INSERT INTO PERSON_DATA
     (`id`, `name`, `age`, `address`)
 VALUES
@@ -28,4 +28,4 @@ UPDATE PERSON_DATA SET  address = '東京都杉並区' WHERE name = '吉田'
 構文は左下に書く
 
 SELECT * FROM PERSON_DATA
-と出力で、更新が
+と出力で、更新ができる
